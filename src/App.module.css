@@ -1,9 +1,22 @@
 body {
-    background-color : blue;
+  background-color: white;
 }
 
 .container {
-    display : flex;
-    align-items : center;
-    justify-content : center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.image {
+  width: 50px;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.heading {
+  font-size: 75px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
 }
