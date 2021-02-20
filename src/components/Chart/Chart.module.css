@@ -1,5 +1,17 @@
 .container {
   display: flex;
   justify-content: center;
-  width: 90%;
+  width: 50%;
+}
+
+@media (max-width: 970px) and (min-width: 770px) {
+  .container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 770px) {
+  .container {
+    width: 110%;
+  }
 }
